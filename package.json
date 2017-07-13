@@ -1,29 +1,26 @@
 {
-  "name": "tx-test-npm",
+  "name": "txnpm",
   "version": "0.1.0",
-  "description": "自己没事写的npm包",
-  "author": {
-    "name": "tangxue",
-    "email": "tangxue1118@gmail.com"
-  },
-  "main": "common/util.js",
+  "description": "Some common methods",
+  "main": "utils/util.js",
   "scripts": {
-    "test": "tx test-npm"
+    "build": "babel source --presets babel-preset-es2015 --out-dir distribution"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tang1118/txnpm.git"
+  },
+  "keywords": [
+    "util",
+    "tx",
+    "javascript"
+  ],
+  "author": "tang xue <tangxue1118@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Tang1118/txnpm/issues"
   },
-  "homepage": "https://github.com/Tang1118/txnpm",
-  "keywords": [
-    "tx",
-    "npm",
-    "txnpm"
-  ],
-  "licenses": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Tang1118/txnpm.git"
-  },
+  "homepage": "https://github.com/Tang1118/txnpm#readme",
   "dependencies": {
     "babel-runtime": "^6.0.0"
   },
